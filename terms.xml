@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<terms>
+
+<term>
+    <name_en>Algorithm</name_en>
+    <name_ar>الخوارزمية</name_ar>
+    <definition>مجموعة من التعليمات أو القواعد لحل مشكلة معينة.</definition>
+    <example>عند استخدام تطبيق الطقس، يقوم التطبيق بحساب حالة الطقس باستخدام خوارزمية بناءً على الموقع الجغرافي.</example>
+</term>
+
+<term>
+    <name_en>API</name_en>
+    <name_ar>واجهة برمجة التطبيقات</name_ar>
+    <definition>طريقة تتيح للتطبيقات المختلفة التفاعل مع بعضها البعض.</definition>
+    <example>عندما تستخدم تطبيق طلب الطعام عبر الإنترنت، يستخدم التطبيق API للتواصل مع المطعم وعرض قائمة الطعام.</example>
+</term>
+
+<term>
+    <name_en>Bandwidth</name_en>
+    <name_ar>النطاق الترددي</name_ar>
+    <definition>مقدار البيانات التي يمكن إرسالها عبر الإنترنت في وقت معين.</definition>
+    <example>عندما يكون لديك سرعة إنترنت عالية، يمكنك تحميل الملفات بسرعة أكبر وتشغيل الفيديوهات بجودة عالية.</example>
+</term>
+
+<term>
+    <name_en>Cloud Computing</name_en>
+    <name_ar>الحوسبة السحابية</name_ar>
+    <definition>استخدام الإنترنت لتخزين البيانات وتشغيل البرامج بدلاً من استخدامها على جهاز الكمبيوتر الشخصي.</definition>
+    <example>استخدام Google Drive لتخزين صورك ومشاركتها من أي جهاز في أي مكان.</example>
+</term>
+
+<term>
+    <name_en>Firewall</name_en>
+    <name_ar>جدار الحماية</name_ar>
+    <definition>أداة تحمي جهاز الكمبيوتر أو الشبكة من الهجمات الخارجية عن طريق فحص البيانات المرسلة.</definition>
+    <example>عند استخدام جهاز كمبيوتر في العمل، يساعد الجدار الناري في منع الفيروسات من الوصول إلى جهازك من الإنترنت.</example>
+</term>
+
+<term>
+    <name_en>Database</name_en>
+    <name_ar>قاعدة البيانات</name_ar>
+    <definition>مكان لتخزين البيانات بحيث يمكن الوصول إليها واستخدامها بسهولة.</definition>
+    <example>عندما تستخدم تطبيقًا لتخزين أرقام الهواتف، يتم حفظها في قاعدة بيانات لسهولة الوصول إليها في المستقبل.</example>
+</term>
+
+<term>
+    <name_en>Encryption</name_en>
+    <name_ar>التشفير</name_ar>
+    <definition>عملية تحويل البيانات إلى شكل غير قابل للقراءة لحمايتها من المتطفلين.</definition>
+    <example>عند إرسال رسالة عبر تطبيق WhatsApp، يتم تشفير الرسالة بحيث لا يستطيع أحد قراءتها إلا الشخص المستلم.</example>
+</term>
+
+<term>
+    <name_en>Machine Learning</name_en>
+    <name_ar>التعلم الآلي</name_ar>
+    <definition>نوع من الذكاء الاصطناعي حيث يتعلم الكمبيوتر من البيانات ويطور نفسه مع مرور الوقت.</definition>
+    <example>عند استخدام تطبيق للتعرف على الصور، يستخدم التعلم الآلي لتحسين دقة التعرف على الأشخاص في الصور مع كل تجربة جديدة.</example>
+</term>
+
+<term>
+    <name_en>Web Development</name_en>
+    <name_ar>تطوير الويب</name_ar>
+    <definition>عملية إنشاء وتصميم المواقع الإلكترونية.</definition>
+    <example>عندما تقوم بفتح موقعك المفضل على الإنترنت، تم تصميمه باستخدام تقنيات تطوير الويب مثل HTML وCSS.</example>
+</term>
+
+<term>
+    <name_en>SEO</name_en>
+    <name_ar>تحسين محركات البحث</name_ar>
+    <definition>عملية تحسين موقعك ليظهر في نتائج البحث على الإنترنت عندما يبحث الناس عن شيء معين.</definition>
+    <example>عندما تبحث عن "أفضل مطاعم في مدينتي" على محرك البحث، تظهر المطاعم التي تستخدم SEO بشكل فعال في أعلى النتائج.</example>
+</term>
+
+<term>
+    <name_en>Bug</name_en>
+    <name_ar>خلل برمجي</name_ar>
+    <definition>خطأ في الكود البرمجي يؤدي إلى سلوك غير متوقع في البرنامج.</definition>
+    <example>عندما تضغط زر "إرسال" في تطبيق ولا يحدث شيء، قد يكون هناك خلل برمجي يمنع الاستجابة.</example>
+</term>
+
+<term>
+    <name_en>Cache</name_en>
+    <name_ar>الذاكرة المؤقتة</name_ar>
+    <definition>مكان مؤقت لتخزين البيانات بهدف تسريع الوصول إليها لاحقًا.</definition>
+    <example>عندما تزور موقعًا إلكترونيًا للمرة الثانية، يتم تحميله بشكل أسرع لأن بياناته محفوظة في الذاكرة المؤقتة.</example>
+</term>
+
+<term>
+    <name_en>Cookie</name_en>
+    <name_ar>ملف تعريف الارتباط</name_ar>
+    <definition>ملف صغير يخزن معلومات عن المستخدم على المتصفح.</definition>
+    <example>عندما تدخل إلى موقع تسوق ويبقيك مسجلًا للدخول، فإنه يستخدم ملفات تعريف الارتباط لتذكرك.</example>
+</term>
+
+<term>
+    <name_en>IP Address</name_en>
+    <name_ar>عنوان IP</name_ar>
+    <definition>رقم فريد يحدد موقع جهازك على شبكة الإنترنت.</definition>
+    <example>عند الاتصال بالإنترنت، يتم تعيين عنوان IP لجهازك ليسمح له بالتواصل مع المواقع والخدمات.</example>
+</term>
+
+<term>
+    <name_en>URL</name_en>
+    <name_ar>رابط الإنترنت (URL)</name_ar>
+    <definition>العنوان الذي يُستخدم للوصول إلى صفحة ويب على الإنترنت.</definition>
+    <example>عندما تكتب "www.google.com" في المتصفح، فأنت تستخدم URL للوصول إلى موقع Google.</example>
+</term>
+
+<term>
+    <name_en>Operating System</name_en>
+    <name_ar>نظام التشغيل</name_ar>
+    <definition>البرنامج الأساسي الذي يدير مكونات الكمبيوتر ويوفر واجهة للمستخدم.</definition>
+    <example>عند تشغيل جهاز الكمبيوتر، يعمل نظام التشغيل مثل Windows أو macOS لتمكينك من استخدام الجهاز.</example>
+</term>
+
+<term>
+    <name_en>Malware</name_en>
+    <name_ar>برمجيات خبيثة</name_ar>
+    <definition>برامج مصممة لإلحاق الضرر بجهاز الكمبيوتر أو سرقة المعلومات.</definition>
+    <example>إذا فتحت رابطًا مشبوهًا واستُخدم لاختراق جهازك، فقد يكون ذلك بسبب برمجية خبيثة.</example>
+</term>
+
+<term>
+    <name_en>Phishing</name_en>
+    <name_ar>التصيد الاحتيالي</name_ar>
+    <definition>محاولة خداع المستخدم للحصول على معلومات حساسة عبر رسائل مزيفة.</definition>
+    <example>عندما تصلك رسالة بريد إلكتروني تطلب منك تحديث بيانات حسابك البنكي، وقد تكون مزيفة، فهذا تصيد احتيالي.</example>
+</term>
+
+<term>
+    <name_en>Router</name_en>
+    <name_ar>جهاز التوجيه</name_ar>
+    <definition>جهاز يوزع الإنترنت على الأجهزة المختلفة في المنزل أو المكتب.</definition>
+    <example>عند الاتصال بشبكة Wi-Fi في منزلك، فإنك تستخدم جهاز التوجيه (الراوتر) لتوفير الإنترنت لجميع أجهزتك.</example>
+</term>
+
+<term>
+    <name_en>Server</name_en>
+    <name_ar>الخادم</name_ar>
+    <definition>جهاز كمبيوتر قوي يقدم خدمات أو بيانات لأجهزة أخرى عبر الإنترنت.</definition>
+    <example>عندما تفتح تطبيق البريد الإلكتروني، يتم تحميل الرسائل من خادم بعيد خاص بالبريد.</example>
+</term>
+
+<term>
+    <name_en>Frontend</name_en>
+    <name_ar>الواجهة الأمامية</name_ar>
+    <definition>الجزء من الموقع أو التطبيق الذي يتفاعل معه المستخدم.</definition>
+    <example>التصميم الذي تراه وتتعامل معه في موقع مثل فيسبوك هو جزء من الواجهة الأمامية.</example>
+</term>
+
+<term>
+    <name_en>Backend</name_en>
+    <name_ar>الواجهة الخلفية</name_ar>
+    <definition>الجزء المسؤول عن معالجة البيانات خلف الكواليس في المواقع والتطبيقات.</definition>
+    <example>عندما ترفع صورة على إنستغرام، يتم معالجتها وتخزينها في الخلفية من خلال الواجهة الخلفية.</example>
+</term>
+
+<term>
+    <name_en>Latency</name_en>
+    <name_ar>زمن الاستجابة</name_ar>
+    <definition>الوقت الذي تستغرقه البيانات للانتقال من المصدر إلى الوجهة.</definition>
+    <example>عند لعب لعبة أونلاين وتشعر بتأخر في الحركة، فذلك بسبب ارتفاع زمن الاستجابة.</example>
+</term>
+
+<term>
+    <name_en>HTML</name_en>
+    <name_ar>لغة HTML</name_ar>
+    <definition>لغة تستخدم لبناء هيكل صفحات الويب.</definition>
+    <example>عندما تنشئ صفحة "من نحن" في موقع إلكتروني، فإنك تستخدم HTML لكتابة النصوص وتنظيم العناصر.</example>
+</term>
+
+<term>
+    <name_en>CSS</name_en>
+    <name_ar>لغة CSS</name_ar>
+    <definition>لغة تنسيق تستخدم لتحديد شكل وتصميم صفحات الويب.</definition>
+    <example>عندما تضيف لونًا خلفيًا أو تغير الخط في موقع إلكتروني، فأنت تستخدم CSS.</example>
+</term>
+
+<term>
+    <name_en>JavaScript</name_en>
+    <name_ar>جافا سكريبت</name_ar>
+    <definition>لغة برمجة تضيف التفاعل والحركة إلى صفحات الويب.</definition>
+    <example>عندما تضغط على زر في موقع ويظهر لك نافذة منبثقة، يتم تنفيذ ذلك باستخدام JavaScript.</example>
+</term>
+
+<term>
+    <name_en>VPN</name_en>
+    <name_ar>الشبكة الخاصة الافتراضية</name_ar>
+    <definition>أداة تؤمن الاتصال بالإنترنت وتخفي عنوان IP الخاص بك.</definition>
+    <example>عند استخدامك VPN، يمكنك تصفح الإنترنت بأمان من شبكات عامة مثل المقاهي.</example>
+</term>
+
+<term>
+    <name_en>2FA</name_en>
+    <name_ar>التحقق بخطوتين</name_ar>
+    <definition>طبقة أمان إضافية تتطلب خطوة ثانية بعد كلمة المرور لتسجيل الدخول.</definition>
+    <example>عند دخولك إلى حسابك البنكي ويُطلب منك إدخال رمز يُرسل إلى هاتفك، هذا هو التحقق بخطوتين.</example>
+</term>
+
+<term>
+    <name_en>IoT</name_en>
+    <name_ar>إنترنت الأشياء</name_ar>
+    <definition>شبكة من الأجهزة الذكية المتصلة بالإنترنت وتتبادل المعلومات.</definition>
+    <example>عند التحكم في الإضاءة في منزلك باستخدام هاتفك، فأنت تستخدم أحد تطبيقات إنترنت الأشياء.</example>
+</term>
+
+<term>
+    <name_en>Code</name_en>
+    <name_ar>الكود البرمجي</name_ar>
+    <definition>تعليمات مكتوبة بلغة برمجة لتنفيذ مهمة معينة.</definition>
+    <example>عندما تضغط زر "تشغيل" في تطبيق آلة حاسبة، يتم تنفيذ كود لحساب الأرقام.</example>
+</term>
+
+<term>
+    <name_en>Compiler</name_en>
+    <name_ar>المترجم البرمجي</name_ar>
+    <definition>برنامج يحول الكود البرمجي إلى لغة يفهمها الكمبيوتر.</definition>
+    <example>عند برمجة لعبة بلغة ++C، يقوم المترجم بتحويل الكود إلى صيغة يمكن تشغيلها على الجهاز.</example>
+</term>
+
+<term>
+    <name_en>Token</name_en>
+    <name_ar>رمز الوصول</name_ar>
+    <definition>وسيلة تحقق تُستخدم للسماح للمستخدم بالوصول إلى نظام أو خدمة.</definition>
+    <example>عند تسجيل الدخول إلى حسابك باستخدام Google، يتم توليد رمز يسمح للموقع بالوصول الآمن إلى بياناتك.</example>
+</term>
+
+<term>
+    <name_en>Git</name_en>
+    <name_ar>جيت</name_ar>
+    <definition>نظام لإدارة الإصدارات يساعد المطورين على تتبع التغييرات في الكود.</definition>
+    <example>عندما يعمل فريق على مشروع مشترك، يستخدمون Git لتتبع من غيّر ماذا ومتى.</example>
+</term>
+
+<term>
+    <name_en>Open Source</name_en>
+    <name_ar>البرمجيات مفتوحة المصدر</name_ar>
+    <definition>برمجيات يمكن لأي شخص الاطلاع على كودها وتعديله.</definition>
+    <example>نظام التشغيل Linux هو مثال شهير على برنامج مفتوح المصدر يمكن لأي مبرمج المساهمة فيه.</example>
+</term>
+
+<term>
+    <name_en>Command Line</name_en>
+    <name_ar>سطر الأوامر</name_ar>
+    <definition>واجهة تُستخدم لإدخال الأوامر مباشرة للكمبيوتر عبر النص.</definition>
+    <example>عند تثبيت برنامج عبر كتابة أوامر في نافذة سوداء، فأنت تستخدم سطر الأوامر.</example>
+</term>
+
+<term>
+    <name_en>Boolean</name_en>
+    <name_ar>القيمة المنطقية</name_ar>
+    <definition>نوع من البيانات يُمثل إما "صحيح" أو "خطأ".</definition>
+    <example>في تطبيق تسجيل الدخول، يتم استخدام Boolean لمعرفة إذا كانت كلمة المرور صحيحة أو خاطئة.</example>
+</term>
+
+<term>
+    <name_en>Syntax</name_en>
+    <name_ar>البنية البرمجية</name_ar>
+    <definition>القواعد التي تحدد كيفية كتابة التعليمات البرمجية بلغة معينة.</definition>
+    <example>إذا كتبت كودًا بلغة Python بدون المسافة الصحيحة، قد يعطيك البرنامج خطأ في البنية.</example>
+</term>
+
+<term>
+    <name_en>Framework</name_en>
+    <name_ar>الإطار البرمجي</name_ar>
+    <definition>مجموعة أدوات تساعد في بناء التطبيقات بسرعة وكفاءة.</definition>
+    <example>عند تطوير تطبيق ويب، يمكن استخدام إطار مثل React لتسريع عملية البناء.</example>
+</term>
+
+<term>
+    <name_en>Patch</name_en>
+    <name_ar>تصحيح برمجي</name_ar>
+    <definition>تحديث يُستخدم لإصلاح خلل أو إضافة تحسين إلى برنامج.</definition>
+    <example>عندما يتوقف تطبيق فجأة ويتم إصدار تحديث صغير لحل المشكلة، فهذا يُسمى تصحيح برمجي.</example>
+</term>
+
+<term>
+    <name_en>Artificial Intelligence</name_en>
+    <name_ar>الذكاء الاصطناعي</name_ar>
+    <definition>مجال في علوم الحاسوب يهدف إلى جعل الآلات تفكر وتتصرف مثل البشر.</definition>
+    <example>عندما يقترح تطبيق الموسيقى أغانٍ بناءً على ذوقك، فهو يستخدم الذكاء الاصطناعي.</example>
+</term>
+
+<term>
+    <name_en>Big Data</name_en>
+    <name_ar>البيانات الضخمة</name_ar>
+    <definition>كميات هائلة من البيانات التي تُحلل لاستخلاص رؤى مفيدة.</definition>
+    <example>تستخدم شركات مثل أمازون البيانات الضخمة لفهم سلوك العملاء وتحسين المبيعات.</example>
+</term>
+
+<term>
+    <name_en>Blockchain</name_en>
+    <name_ar>سلسلة الكتل</name_ar>
+    <definition>تقنية لتسجيل البيانات بشكل آمن وغير قابل للتغيير عبر شبكة موزعة.</definition>
+    <example>تُستخدم سلسلة الكتل في العملات الرقمية مثل البيتكوين لتسجيل المعاملات بأمان.</example>
+</term>
+
+<term>
+    <name_en>Augmented Reality</name_en>
+    <name_ar>الواقع المعزز</name_ar>
+    <definition>تقنية تضيف عناصر رقمية إلى العالم الحقيقي عبر الأجهزة.</definition>
+    <example>عند استخدام فلتر على سناب شات يضيف نظارات على وجهك، فهذا واقع معزز.</example>
+</term>
+
+<term>
+    <name_en>Virtual Reality</name_en>
+    <name_ar>الواقع الافتراضي</name_ar>
+    <definition>تقنية تخلق بيئة رقمية يمكن للمستخدم التفاعل معها.</definition>
+    <example>عند ارتداء نظارات VR للعب لعبة تحاكي عالمًا خياليًا، فأنت في الواقع الافتراضي.</example>
+</term>
+
+<term>
+    <name_en>Cybersecurity</name_en>
+    <name_ar>الأمن السيبراني</name_ar>
+    <definition>حماية الأنظمة والشبكات من الهجمات الرقمية.</definition>
+    <example>استخدام برامج مكافحة الفيروسات لحماية جهازك من البرمجيات الخبيثة هو جزء من الأمن السيبراني.</example>
+</term>
+
+<term>
+    <name_en>Data Mining</name_en>
+    <name_ar>تنقيب البيانات</name_ar>
+    <definition>عملية استخراج أنماط مفيدة من كميات كبيرة من البيانات.</definition>
+    <example>عندما تكتشف شركة أنماط شراء العملاء من سجلات المبيعات، فهي تستخدم تنقيب البيانات.</example>
+</term>
+
+<term>
+    <name_en>DevOps</name_en>
+    <name_ar>ديف أوبس</name_ar>
+    <definition>منهجية تجمع بين تطوير البرمجيات وتشغيلها لتحسين الإنتاجية.</definition>
+    <example>عندما يعمل فريق على تحديث تطبيق بسرعة باستخدام أدوات أتمتة، فهو يتبع نهج ديف أوبس.</example>
+</term>
+
+<term>
+    <name_en>Neural Network</name_en>
+    <name_ar>الشبكة العصبية</name_ar>
+    <definition>نظام يحاكي طريقة عمل الدماغ البشري للتعلم من البيانات.</definition>
+    <example>يستخدم تطبيق التعرف على الصوت مثل Siri شبكة عصبية لفهم كلامك.</example>
+</term>
+
+<term>
+    <name_en>Quantum Computing</name_en>
+    <name_ar>الحوسبة الكمومية</name_ar>
+    <definition>نوع من الحوسبة يستخدم مبادئ ميكانيكا الكم لحل المشكلات بسرعة فائقة.</definition>
+    <example>يمكن للحوسبة الكمومية حل مسائل التشفير المعقدة بشكل أسرع من الحواسيب التقليدية.</example>
+</term>
+
+<term>
+    <name_en>Responsive Design</name_en>
+    <name_ar>التصميم التجاوبي</name_ar>
+    <definition>تصميم مواقع تتكيف مع أحجام الشاشات المختلفة.</definition>
+    <example>عندما يظهر موقع بشكل جيد على الهاتف والكمبيوتر، فهو يستخدم تصميمًا تجاوبيًا.</example>
+</term>
+
+<term>
+    <name_en>Version Control</name_en>
+    <name_ar>التحكم بالإصدارات</name_ar>
+    <definition>نظام لإدارة التغييرات في الملفات أو الكود البرمجي.</definition>
+    <example>عند استخدام GitHub لتتبع تغييرات الكود في مشروع، فأنت تستخدم التحكم بالإصدارات.</example>
+</term>
+
+<term>
+    <name_en>Agile</name_en>
+    <name_ar>الأجايل</name_ar>
+    <definition>منهجية تطوير تعتمد على العمل التدريجي والتعاون المستمر.</definition>
+    <example>عندما يعمل فريق على إصدار ميزة جديدة في تطبيق كل أسبوعين، فهو يتبع منهجية الأجايل.</example>
+</term>
+
+<term>
+    <name_en>Scrum</name_en>
+    <name_ar>سكروم</name_ar>
+    <definition>إطار عمل ضمن الأجايل يركز على تقسيم العمل إلى مراحل قصيرة.</definition>
+    <example>عندما يجتمع فريق يوميًا لمناقشة التقدم في المشروع، فهو يستخدم سكروم.</example>
+</term>
+
+<term>
+    <name_en>Microservices</name_en>
+    <name_ar>الخدمات المصغرة</name_ar>
+    <definition>هيكلية تطوير تقسم التطبيق إلى خدمات صغيرة مستقلة.</definition>
+    <example>تطبيق مثل نيتفليكس يستخدم خدمات مصغرة لإدارة الفيديو والتوصيات بشكل منفصل.</example>
+</term>
+
+<term>
+    <name_en>Container</name_en>
+    <name_ar>الحاوية</name_ar>
+    <definition>وحدة برمجية تحتوي على التطبيق وكل ما يحتاجه للعمل.</definition>
+    <example>عند استخدام Docker لتشغيل تطبيق على أي جهاز، فأنت تستخدم حاوية.</example>
+</term>
+
+<term>
+    <name_en>Kubernetes</name_en>
+    <name_ar>كوبرنيتس</name_ar>
+    <definition>نظام لإدارة الحاويات وتوزيعها عبر خوادم متعددة.</definition>
+    <example>تستخدم شركات مثل جوجل كوبرنيتس لتشغيل تطبيقاتها بكفاءة على السحابة.</example>
+</term>
+
+<term>
+    <name_en>REST API</name_en>
+    <name_ar>واجهة برمجة REST</name_ar>
+    <definition>نوع من واجهات برمجة التطبيقات يعتمد على طلبات HTTP القياسية.</definition>
+    <example>عندما يطلب تطبيق من تويتر بيانات تغريدة، فهو يستخدم واجهة برمجة REST.</example>
+</term>
+
+<term>
+    <name_en>GraphQL</name_en>
+    <name_ar>جراف كيو إل</name_ar>
+    <definition>لغة استعلام تتيح طلب البيانات التي يحتاجها التطبيق فقط.</definition>
+    <example>عندما يطلب تطبيق بيانات المستخدم دون تحميل بيانات إضافية، فهو يستخدم GraphQL.</example>
+</term>
+
+<term>
+    <name_en>SSL</name_en>
+    <name_ar>طبقة المنافذ الآمنة</name_ar>
+    <definition>بروتوكول لتأمين الاتصال بين المتصفح والخادم.</definition>
+    <example>عندما ترى "https" في عنوان الموقع، فهذا يعني أن الموقع يستخدم SSL.</example>
+</term>
+
+<term>
+    <name_en>Hashing</name_en>
+    <name_ar>التجزئة</name_ar>
+    <definition>عملية تحويل البيانات إلى قيمة ثابتة الطول لأغراض الأمان.</definition>
+    <example>عند تخزين كلمات المرور في قاعدة بيانات، تُحوّل إلى قيم مشفرة باستخدام التجزئة.</example>
+</term>
+
+<term>
+    <name_en>Load Balancer</name_en>
+    <name_ar>موازن الحمل</name_ar>
+    <definition>جهاز أو برنامج يوزع حركة البيانات على عدة خوادم.</definition>
+    <example>عند زيارة موقع شهير مثل يوتيوب، يستخدم موازن الحمل لضمان عدم انهيار الخادم.</example>
+</term>
+
+<term>
+    <name_en>Edge Computing</name_en>
+    <name_ar>الحوسبة الطرفية</name_ar>
+    <definition>معالجة البيانات بالقرب من مصدرها بدلاً من السحابة.</definition>
+    <example>سيارة ذاتية القيادة تعالج البيانات مباشرة بدلاً من إرسالها إلى خادم بعيد.</example>
+</term>
+
+<term>
+    <name_en>Deep Learning</name_en>
+    <name_ar>التعلم العميق</name_ar>
+    <definition>نوع متقدم من التعلم الآلي يستخدم شبكات عصبية متعددة الطبقات.</definition>
+    <example>يستخدم التعلم العميق في تطبيقات التعرف على الوجوه في الهواتف الذكية.</example>
+</term>
+
+<term>
+    <name_en>CI/CD</name_en>
+    <name_ar>التكامل والنشر المستمر</name_ar>
+    <definition>ممارسة لأتمتة تطوير ونشر البرمجيات باستمرار.</definition>
+    <example>عندما يتم تحديث تطبيق تلقائيًا بعد كل تغيير في الكود، فهذا يعتمد على CI/CD.</example>
+</term>
+
+<term>
+    <name_en>Packet</name_en>
+    <name_ar>حزمة البيانات</name_ar>
+    <definition>وحدة صغيرة من البيانات تُرسل عبر الشبكة.</definition>
+    <example>عند تحميل صفحة ويب، تصل البيانات إليك على شكل حزم صغيرة.</example>
+</term>
+
+<term>
+    <name_en>Domain Name</name_en>
+    <name_ar>اسم النطاق</name_ar>
+    <definition>العنوان النصي الذي يُستخدم بدلاً من عنوان IP للوصول إلى موقع.</definition>
+    <example>عند كتابة "facebook.com" بدلاً من رقم IP، فأنت تستخدم اسم نطاق.</example>
+</term>
+
+<term>
+    <name_en>DNS</name_en>
+    <name_ar>نظام أسماء النطاقات</name_ar>
+    <definition>نظام يترجم أسماء النطاقات إلى عناوين IP.</definition>
+    <example>عند زيارة موقع، يقوم DNS بتحويل العنوان مثل "google.com" إلى IP للخادم.</example>
+</term>
+
+<term>
+    <name_en>OAuth</name_en>
+    <name_ar>أو أوث</name_ar>
+    <definition>بروتوكول يسمح بتسجيل الدخول باستخدام حسابات من مواقع أخرى.</definition>
+    <example>عند تسجيل الدخول إلى موقع باستخدام حساب جوجل، فأنت تستخدم OAuth.</example>
+</term>
+
+<term>
+    <name_en>Metadata</name_en>
+    <name_ar>البيانات الوصفية</name_ar>
+    <definition>بيانات تصف بيانات أخرى، مثل التاريخ أو الموقع.</definition>
+    <example>عندما تلتقط صورة، تحتوي على بيانات وصفية مثل وقت الالتقاط والموقع.</example>
+</term>
+
+<term>
+    <name_en>Regex</name_en>
+    <name_ar>التعبير العادي</name_ar>
+    <definition>نمط يُستخدم للبحث عن نصوص أو التحقق من صحتها.</definition>
+    <example>عند التحقق من صحة بريد إلكتروني في نموذج، يُستخدم التعبير العادي.</example>
+</term>
+
+<term>
+    <name_en>Queue</name_en>
+    <name_ar>قائمة الانتظار</name_ar>
+    <definition>هيكل بيانات يعالج العناصر بناءً على ترتيب وصولها.</definition>
+    <example>عند إرسال رسائل في تطبيق، تُوضع في قائمة انتظار حتى يتم معالجتها.</example>
+</term>
+
+<term>
+    <name_en>Stack</name_en>
+    <name_ar>المكدس</name_ar>
+    <definition>هيكل بيانات يعالج العناصر بناءً على آخر عنصر يُضاف.</definition>
+    <example>عند التراجع عن تغييرات في برنامج تحرير، يتم استخدام مكدس لتتبع الخطوات.</example>
+</term>
+
+<term>
+    <name_en>Thread</name_en>
+    <name_ar>الخيط</name_ar>
+    <definition>وحدة صغيرة من المهام تُنفذ ضمن برنامج.</definition>
+    <example>عندما يقوم تطبيق بتحميل صورة وتشغيل فيديو في نفس الوقت، يستخدم خيوطًا متعددة.</example>
+</term>
+
+<term>
+    <name_en>Parallel Computing</name_en>
+    <name_ar>الحوسبة المتوازية</name_ar>
+    <definition>تنفيذ عدة عمليات حوسبية في نفس الوقت.</definition>
+    <example>عند معالجة فيديو بسرعة باستخدام معالجات متعددة، فهذه حوسبة متوازية.</example>
+</term>
+
+<term>
+    <name_en>Cache Memory</name_en>
+    <name_ar>الذاكرة المخبأة</name_ar>
+    <definition>ذاكرة سريعة تُستخدم لتخزين البيانات المستخدمة بشكل متكرر.</definition>
+    <example>عندما يفتح جهازك تطبيقًا بسرعة، فإنه يستخدم الذاكرة المخبأة.</example>
+</term>
+
+<term>
+    <name_en>Virtual Machine</name_en>
+    <name_ar>الآلة الافتراضية</name_ar>
+    <definition>برنامج يحاكي جهاز كمبيوتر داخل جهاز آخر.</definition>
+    <example>عند تشغيل نظام ويندوز داخل جهاز ماك، فأنت تستخدم آلة افتراضية.</example>
+</term>
+
+<term>
+    <name_en>Payload</name_en>
+    <name_ar>الحمولة</name_ar>
+    <definition>البيانات الفعلية التي يتم إرسالها في طلب أو حزمة.</definition>
+    <example>عند إرسال رسالة عبر الإنترنت، فإن نص الرسالة هو الحمولة.</example>
+</term>
+
+<term>
+    <name_en>Unit Testing</name_en>
+    <name_ar>اختبار الوحدة</name_ar>
+    <definition>اختبار أجزاء صغيرة من الكود للتأكد من عملها بشكل صحيح.</definition>
+    <example>عند اختبار دالة حسابية في برنامج، فأنت تجري اختبار وحدة.</example>
+</term>
+
+<term>
+    <name_en>Integration Testing</name_en>
+    <name_ar>اختبار التكامل</name_ar>
+    <definition>اختبار التفاعل بين أجزاء مختلفة من النظام.</definition>
+    <example>عند التأكد من أن قاعدة البيانات تعمل مع واجهة المستخدم، فهذا اختبار تكامل.</example>
+</term>
+
+<term>
+    <name_en>Latency</name_en>
+    <name_ar>زمن التأخير</name_ar>
+    <definition>الوقت المستغرق لنقل البيانات من نقطة إلى أخرى.</definition>
+    <example>عندما تشعر بتأخير أثناء مكالمة فيديو، فهذا بسبب زمن التأخير.</example>
+</term>
+
+<term>
+    <name_en>Throughput</name_en>
+    <name_ar>الإنتاجية</name_ar>
+    <definition>مقدار العمل الذي يمكن إنجازه في وحدة زمنية.</definition>
+    <example>عندما يتعامل خادم مع آلاف الطلبات في الثانية، فهذه إنتاجيته.</example>
+</term>
+
+<term>
+    <name_en>Hotfix</name_en>
+    <name_ar>الإصلاح السريع</name_ar>
+    <definition>تحديث عاجل لإصلاح مشكلة حرجة في البرنامج.</definition>
+    <example>عند إصدار تحديث لإصلاح ثغرة أمنية في تطبيق، فهذا إصلاح سريع.</example>
+</term>
+
+<term>
+    <name_en>Dependency</name_en>
+    <name_ar>التبعية</name_ar>
+    <definition>مكون أو مكتبة يعتمد عليها برنامج ليعمل.</definition>
+    <example>عند تثبيت مكتبة Python لتحليل البيانات، فهي تبعية لمشروعك.</example>
+</term>
+
+<term>
+    <name_en>Refactoring</name_en>
+    <name_ar>إعادة الهيكلة</name_ar>
+    <definition>تحسين الكود البرمجي دون تغيير وظائفه.</definition>
+    <example>عند تنظيم كود برنامج ليكون أكثر وضوحًا، فأنت تقوم بإعادة هيكلة.</example>
+</term>
+
+<term>
+    <name_en>Waterfall</name_en>
+    <name_ar>النموذج المتتالي</name_ar>
+    <definition>منهجية تطوير تعتمد على مراحل متتالية وثابتة.</definition>
+    <example>عند تخطيط مشروع برمجي بمراحل تصميم وتطوير واختبار، فهذا نموذج متتالي.</example>
+</term>
+
+<term>
+    <name_en>Runtime</name_en>
+    <name_ar>وقت التشغيل</name_ar>
+    <definition>البيئة التي يعمل فيها البرنامج أثناء تنفيذه.</definition>
+    <example>عند تشغيل تطبيق Java، يحتاج إلى بيئة وقت تشغيل Java.</example>
+</term>
+
+<term>
+    <name_en>Scalability</name_en>
+    <name_ar>القابلية للتوسع</name_ar>
+    <definition>قدرة النظام على التعامل مع زيادة الحمل بكفاءة.</definition>
+    <example>عندما يدعم موقع زيادة عدد الزوار دون توقف، فهو قابل للتوسع.</example>
+</term>
+
+<term>
+    <name_en>Orchestration</name_en>
+    <name_ar>التنسيق</name_ar>
+    <definition>إدارة وتنظيم العمليات المعقدة في الأنظمة.</definition>
+    <example>عند استخدام كوبرنيتس لإدارة حاويات متعددة، فهذا يُسمى تنسيق.</example>
+</term>
+
+<term>
+    <name_en>Telemetry</name_en>
+    <name_ar>القياس عن بُعد</name_ar>
+    <definition>جمع البيانات من الأنظمة عن بُعد لتحليل الأداء.</definition>
+    <example>عندما ترسل سيارة ذكية بيانات عن سرعتها إلى الشركة المصنعة، فهذا قياس عن بُعد.</example>
+</term>
+</terms>

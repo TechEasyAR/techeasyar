@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قاموس المصطلحات التقنية</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+
+
+    *{
+      direction: rtl;
+      box-sizing: border-box;
+      font-family: "Markazi Text", serif;
+    }
+    body {
+      background-color: #F7F9FC; /* خلفية هادئة ومضيئة */
+      color: #2C3E50; /* نص داكن لمظهر متوازن */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2C3E50; /* لون رئيسي عميق */
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 5px solid #1A252F; /* ظل بسيط لإطار أسفله */
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.1em;
+      margin-top: 10px;
+      color: #BDC3C7; /* لون فاتح للخلفيات الداكنة */
+    }
+
+    .search-container {
+      margin-top: 20px;
+    }
+
+    #searchInput {
+      padding: 12px;
+      font-size: 1.2em;
+      width: 80%;
+      max-width: 400px;
+      border: 2px solid #2C3E50;
+      border-radius: 4px;
+      outline: none;
+    }
+
+    #searchInput:focus {
+      border-color: #1A252F;
+    }
+
+    .controls {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    button {
+      padding: 12px 25px;
+      font-size: 1.1em;
+      margin: 10px;
+      background-color: #2980B9; /* لون أزرار جذاب */
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #1F6391;
+    }
+
+    #termsList {
+      margin: 20px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .term {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #ECF0F1; /* خلفية فاتحة للمصطلحات */
+      border-radius: 8px;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .term h3 {
+      font-size: 1.6em;
+      margin-bottom: 10px;
+      color: #2C3E50;
+    }
+
+    .term p {
+      font-size: 1.1em;
+      color: #2C3E50;
+    }
+
+    .pagination {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .pagination button {
+      padding: 8px 12px;
+      background-color: #2980B9;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .pagination button:hover {
+      background-color: #1F6391;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 1em;
+      padding: 20px;
+      background-color: #2C3E50;
+      color: white;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #BDC3C7;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>قاموس المصطلحات التقنية</h1>
+    <p>افهم التقنية كما لم تفهمها من قبل – مصطلحات مفهومة مع أمثلة من حياتك اليومية!</p>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="ابحث عن مصطلح...">
+    </div>
+  </header>
+
+  <div class="controls">
+    <button id="showAllBtn">عرض جميع المصطلحات</button>
+    <button id="downloadCsvBtn">تنزيل ملف CSV</button>
+  </div>
+  <p id="termsCount" style="margin-top: 15px; font-size: 1.2em; color: #2C3E50; text-align: center;"></p>
+
+  <div id="termsList">
+    <!-- سيتم عرض المصطلحات هنا -->
+  </div>
+
+  <div class="pagination" id="paginationControls">
+    <!-- سيتم إنشاء أزرار الصفحات هنا -->
+  </div>
+
+  <footer>
+    <p>آخر تعديل: <span id="lastModifiedDate"></span></p>
+    <p>تابعني على: 
+      <a href="https://twitter.com/ei0o" target="_blank">Twitter</a> | 
+      <a href="https://github.com/ei0o" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <script>
+    let termsArray = [];
+    let filteredArray = [];
+    const termsPerPage = 5;
+    let currentPage = 1;
+    let isShowingAll = false;
+
+    function loadXMLData() {
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "terms.xml", true);
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          parseXML(xhr.responseXML);
+          displayLastModified(xhr);
+        }
+      };
+      xhr.send();
+    }
+
+    function displayLastModified(xhr) {
+      const lastModified = new Date(xhr.getResponseHeader('Last-Modified'));
+      const lastModifiedDate = document.getElementById('lastModifiedDate');
+      lastModifiedDate.textContent = lastModified.toLocaleDateString("ar-EG", {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+      });
+    }
+
+    function parseXML(xml) {
+  
+      const terms = xml.getElementsByTagName("term");
+      for (let i = 0; i < terms.length; i++) {
+        let termNameEn = terms[i].getElementsByTagName("name_en")[0].childNodes[0].nodeValue;
+        let termNameAr = terms[i].getElementsByTagName("name_ar")[0].childNodes[0].nodeValue;
+        let termDefinition = terms[i].getElementsByTagName("definition")[0].childNodes[0].nodeValue;
+        let termExample = terms[i].getElementsByTagName("example")[0].childNodes[0].nodeValue;
+
+        termsArray.push({
+          name_en: termNameEn,
+          name_ar: termNameAr,
+          definition: termDefinition,
+          example: termExample
+        });
+      }
+      document.getElementById('termsCount').textContent = `عدد المصطلحات: ${termsArray.length}`;
+
+      filteredArray = [...termsArray];
+      shuffleArray(filteredArray);
+      renderPage(1);
+      createPaginationControls();
+    }
+
+    function shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+    }
+
+    function renderPage(page) {
+      currentPage = page;
+      const termsList = document.getElementById('termsList');
+      termsList.innerHTML = "";
+
+      let startIndex, endIndex;
+      if(isShowingAll) {
+        startIndex = 0;
+        endIndex = filteredArray.length;
+      } else {
+        startIndex = (page - 1) * termsPerPage;
+        endIndex = startIndex + termsPerPage;
+      }
+      
+      const termsToShow = filteredArray.slice(startIndex, endIndex);
+      termsToShow.forEach(term => {
+        const termDiv = document.createElement('div');
+        termDiv.classList.add('term');
+        termDiv.innerHTML = `
+          <h3>${term.name_en} (${term.name_ar})</h3>
+          <p><strong>تعريف:</strong> ${term.definition}</p>
+          <p><strong>مثال:</strong> ${term.example}</p>
+        `;
+        termsList.appendChild(termDiv);
+      });
+      updatePaginationControls();
+    }
+
+    function createPaginationControls() {
+      const paginationDiv = document.getElementById('paginationControls');
+      paginationDiv.innerHTML = "";
+      if(isShowingAll) return;
+      
+      const totalPages = Math.ceil(filteredArray.length / termsPerPage);
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement('button');
+        btn.textContent = i;
+        btn.addEventListener('click', function() {
+          renderPage(i);
+        });
+        paginationDiv.appendChild(btn);
+      }
+    }
+
+    function updatePaginationControls() {
+      const paginationDiv = document.getElementById('paginationControls');
+      const buttons = paginationDiv.getElementsByTagName('button');
+      Array.from(buttons).forEach((btn, index) => {
+        btn.classList.remove('active');
+        if(index + 1 === currentPage) {
+          btn.classList.add('active');
+        }
+      });
+    }
+
+    document.getElementById('searchInput').addEventListener('input', function(event) {
+      const searchTerm = event.target.value.toLowerCase();
+      filteredArray = termsArray.filter(term => 
+        term.name_en.toLowerCase().includes(searchTerm) || 
+        term.name_ar.toLowerCase().includes(searchTerm)
+      );
+      shuffleArray(filteredArray);
+      isShowingAll = false;
+      renderPage(1);
+      createPaginationControls();
+    });
+
+    document.getElementById('showAllBtn').addEventListener('click', function() {
+      isShowingAll = true;
+      renderPage(1);
+      document.getElementById('paginationControls').innerHTML = "";
+    });
+
+    document.getElementById('downloadCsvBtn').addEventListener('click', function() {
+      let csvContent = "\uFEFF";
+      csvContent += "الاسم_بالإنجليزية,الاسم_بالعربية,التعريف,المثال\r\n";
+
+      termsArray.forEach(term => {
+        const row = [
+          `"${term.name_en.replace(/,/g, ';')}"`,
+          `"${term.name_ar.replace(/,/g, ';')}"`,
+          `"${term.definition.replace(/,/g, ';')}"`,
+          `"${term.example.replace(/,/g, ';')}"`,
+        ];
+        csvContent += row.join(",") + "\r\n";
+      });
+
+      const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.setAttribute("href", url);
+      link.setAttribute("download", "مصطلحات_التقنية.csv");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    });
+
+    loadXMLData();
+  </script>
+
+</body>
+</html>
